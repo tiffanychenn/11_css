@@ -1,0 +1,26 @@
+body {
+	text-align: center;
+	font-family: Consolas,monaco,monospace;
+	color: maroon;
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+	color: magenta;
+}
+
+h3 {
+	color: pink;
+}
+
+li, a {
+	color: scarlet;
+	font-style: italic;
+}
+
+p {
+	font-size: 14px;
+}
