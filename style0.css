@@ -1,5 +1,7 @@
 ul, a {
 	color: royalblue;
+	list-style-position: inside;
+	padding-right: 20px;
 }
 
 a:hover {
@@ -13,10 +15,12 @@ body {
 	font-family: Consolas,monaco,monospace;
 	font-size: 14px;
 	background-color: powderblue;
+	text-transform: lowercase;
 }
 
 .extreme {
 	color: navy;
+	letter-spacing: 2px;
 }
 
 .prose {
@@ -25,4 +29,9 @@ body {
 
 .navzone, .content {
  	color: #3399ff;
+}
+
+h2, h3 {
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 1px navy;
 }

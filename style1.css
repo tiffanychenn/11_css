@@ -1,20 +1,33 @@
 body {
 	text-align: left;
-	font-family: Consolas,monaco,monospace;
+	font-family: Courier,monaco,monospace;
 	font-size: 14px;
 	background-color: lightpink;
 }
 
 #head1 {
+	text-transform: uppercase;
 	color: red;
+	text-align: center;
+	border: 10px solid red;
+}
+
+#head1:hover {
+	background-color: red;
+	color: lightpink;
 }
 
 .content {
+	padding-right: 100px;
+	padding-left: 100px;
 	color: magenta;
+	text-transform: uppercase
 }
 
 h3 {
 	color: deeppink;
+	text-transform: uppercase;
+	font-size: 150%;
 }
 
 .navzone, a, li {
@@ -22,6 +35,17 @@ h3 {
 	font-style: italic;
 }
 
-.prose, .extreme {
+.navzone {
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.extreme {
+	color: maroon;	
+	text-align: center;
+}
+
+.prose {
+	text-transform: lowercase;
 	color: maroon;
 }
