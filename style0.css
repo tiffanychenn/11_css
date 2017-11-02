@@ -1,21 +1,28 @@
-h1, h2, h3 {
-	color: midnightblue;
-	text-align: center;
-}
-
-a {
-	color: skyblue;
-	font-family: Consolas,monaco,monospace;
+ul, a {
+	color: royalblue;
 }
 
 a:hover {
-	background-color: black;
-	color: white;
+	background-color: navy;
+	color: powderblue;
 	font-style: italic;
 }
 
-p {
+body {
 	text-align: center;
 	font-family: Consolas,monaco,monospace;
+	font-size: 14px;
+	background-color: powderblue;
+}
+
+.extreme {
+	color: navy;
+}
+
+.prose {
 	color: steelblue;
+}
+
+.navzone, .content {
+ 	color: #3399ff;
 }

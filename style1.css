@@ -1,26 +1,27 @@
 body {
-	text-align: center;
+	text-align: left;
 	font-family: Consolas,monaco,monospace;
-	color: maroon;
+	font-size: 14px;
+	background-color: lightpink;
 }
 
-h1 {
+#head1 {
 	color: red;
 }
 
-h2 {
+.content {
 	color: magenta;
 }
 
 h3 {
-	color: pink;
+	color: deeppink;
 }
 
-li, a {
-	color: scarlet;
+.navzone, a, li {
+	color: mediumvioletred;
 	font-style: italic;
 }
 
-p {
-	font-size: 14px;
+.prose, .extreme {
+	color: maroon;
 }
